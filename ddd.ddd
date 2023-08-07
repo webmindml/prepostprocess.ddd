@@ -1,7 +1,5 @@
 # ddd.ddd
 
-<code>
-
 import gradio as gr
 import your_webgpu_library as wgpu  # Replace 'your_webgpu_library' with the actual library name
 
@@ -40,4 +38,3 @@ gr_interface = gr.Interface(
 
 # Launch the Gradio interface
 gr_interface.launch()
-</code>
