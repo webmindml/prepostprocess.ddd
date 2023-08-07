@@ -57,5 +57,5 @@ Finally, we create the Gradio interface with gr.Interface, passing the webgpu_in
 
 Keep in mind that this is a simplified example to illustrate the idea of custom preprocessors and postprocessors for interaction between WebGPU preprocess and .ddd file postprocess. Code adaptations to follow on a when ready deployment schedule.
 
-ddd (c) 2023 codephreak MIT license<br />
-So tired of flatnet. I have been waiting half a lifetime for the internet to become 3D. If this inspires you, run with it. codephreak was here.
+<a href="https://github.com/webmindml/prepostprocess.ddd">ddd</a> (c) 2023 <a href="https://github.com/Professor-Codephreak"codephreak</a> MIT license<br />
+So tired of flatnet. I have been waiting half a lifetime for the internet to become 3D. <a href="https://github.com/Professor-Codephreak">codephreak was here</a>
