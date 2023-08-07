@@ -55,4 +55,7 @@ Next, we define the output component webgpu_output using gr.outputs.Text, specif
 
 Finally, we create the Gradio interface with gr.Interface, passing the webgpu_interaction function as the main function to interact with WebGPU, and specifying the ddd_input and webgpu_output components.
 
-Keep in mind that this is a simplified example to illustrate the idea of custom preprocessors and postprocessors for .ddd files and WebGPU interaction. Code adaptations to follow on a when ready deployment schedule.
+Keep in mind that this is a simplified example to illustrate the idea of custom preprocessors and postprocessors for interaction between WebGPU preprocess and .ddd file postprocess. Code adaptations to follow on a when ready deployment schedule.
+
+ddd (c) 2023 codephreak MIT license<br />
+So tired of flatnet. I have been waiting half a lifetime for the internet to become 3D. If this inspires you, run with it. codephreak was here.
