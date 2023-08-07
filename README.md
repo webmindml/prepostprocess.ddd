@@ -1,6 +1,6 @@
 # prepostprocess.ddd
 preprocess_ddd and postprocess_webgpu as a ddd to WebGPU Gradio component abstraction<br />
-given a library for WebGPU interaction you want to add support for .ddd files as input and output components to simplfy calls. Here's a basic template to illustrate the idea see: <a href="https://github.com/webmindml/prepostprocess.ddd/ddd.ddd">ddd.ddd</a><br /><br />
+given a library for WebGPU interaction this adds support for .ddd files as input and output components to simplfy calls. Here's a basic template to illustrate the idea see: <a href="https://github.com/webmindml/prepostprocess.ddd/ddd.ddd">ddd.ddd</a><br /><br /><br />
 
 <code>
 import gradio as gr
@@ -43,11 +43,11 @@ gr_interface = gr.Interface(
 gr_interface.launch()
 </code>
 
-we define two custom functions, preprocess_ddd and postprocess_webgpu, which handle the loading and processing of .ddd files and the postprocessing of WebGPU output, respectively.
+defining two custom functions, preprocess_ddd and postprocess_webgpu, to handle the loading and processing of .ddd files and the postprocessing of WebGPU output, respectively.
 
-The preprocess_ddd function is a preprocessor for the .ddd files, which takes the file path as input, loads the file's data, and preprocesses it for use with WebGPU. You should replace the placeholder logic with your actual .ddd file handling and processing code.
+The preprocess_ddd function is a preprocessor for the .ddd files taking the file path as input, loading the file's data, and preprocesses the data for use with WebGPU. Replace the placeholder logic with your actual .ddd file handling and processing code.
 
-The postprocess_webgpu function is a postprocessor for the WebGPU output. It takes the raw WebGPU output as input and processes it before displaying it. The exact postprocessing logic will depend on the specific output format of your WebGPU library and how you want to visualize or present the results.
+The postprocess_webgpu function is a postprocessor for the WebGPU output. It takes the raw WebGPU output as input and processes it before displaying it. The exact postprocessing logic will depend on the specific output format of your WebGPU library and how you want to <i>visualize</i> or present the results.
 
 We then define a custom input component ddd_input using gr.inputs.File, specifying the preprocess_ddd function as the preprocessor.
 
